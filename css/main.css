@@ -256,4 +256,8 @@ nav a:hover, footer a:hover {
 	margin-right: auto;
 	margin-top: 2%;	
 }
+	
+#resume iframe {
+	height: 1000px;
+}
 }
