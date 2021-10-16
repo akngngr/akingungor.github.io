@@ -238,17 +238,22 @@ nav ul {
 	padding-top: 5%;
 }
 
+nav a:hover, footer a:hover {
+	color: rgba(169, 169, 169, 1);
+	text-shadow: 1px 1px #000000;
+	border-bottom: 1px solid white;
+	padding-bottom: 1px;
+	transition: 0.2s ease-in;
+	
+}
+
 #resume {
 	position: relative;
 	float: left;
-	height: 50%;
-	width: 100%;
-	margin-left: auto;
+	height: 800px;
+	width: 90%;
+	margin-left: 5%;
 	margin-right: auto;
 	margin-top: 2%;	
-}
-#resume object {
-	margin-bottom: 1%;
-	border: solid 1px black;
 }
 }
