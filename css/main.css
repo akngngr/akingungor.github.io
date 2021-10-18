@@ -244,10 +244,24 @@ nav a:hover, footer a:hover {
 	
 }
 
-#resume {
+#resume iframe {
+	display: inline-block;
 	position: relative;
 	float: left;
-	height: 800px;
+	height: 600px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: auto;
+	margin-top: 2%;	
+}
+}
+
+@media only screen and (max-width: 700px) {
+	#resume iframe {
+	display: inline-block;
+	position: relative;
+	float: left;
+	height: 500px;
 	width: 90%;
 	margin-left: 5%;
 	margin-right: auto;
