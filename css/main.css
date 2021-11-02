@@ -44,7 +44,7 @@ canvas {
 	margin-left: auto;
 	margin-right: auto;
 	height: 100%;
-	width: 80%;
+	width: 50%;
 }
 
 #polygon {
@@ -75,7 +75,7 @@ p {
 	padding-right: 5%;
 	color: white;
 	text-align: left;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	margin: auto;
 	text-shadow: 1px 1px black;
 }
